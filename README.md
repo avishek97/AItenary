@@ -1,75 +1,165 @@
-# React + TypeScript + Vite
+✈️ TripSmart — AI Powered Travel Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive travel booking platform where users can:
 
-Currently, two official plugins are available:
+🔍 Search Stay, Flights, Trains & Buses
+🧠 Get AI-generated itineraries
+📍 Filter transport options
+💎 Experience a premium modern UI
+📱 Enjoy seamless responsiveness across devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌍 Preview
+Plan Your Perfect Trip ✨
 
-## React Compiler
+Flights • Trains • Buses • Itineraries • Stay
+All in one beautiful experience.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+🚀 Features
+✈ Flight Search
+Flight listings
+Stops filtering
+Price range
+Departure time
+Airlines filtering
+Sort by:
+Best
+Cheapest
+Fastest
+🚆 Train Search
+Train class filter
+Train type filter
+Availability filter
+Boarding & dropping station
+Departure timing
+Price slider
+🚌 Bus Search
+AC / Non-AC
+Sleeper / Seater
+Boarding point
+Dropping point
+Price range slider
+Book Stay
+🧠 AI Itinerary Planner
 
-Note: This will impact Vite dev & build performances.
+Generate:
 
-## Expanding the ESLint configuration
+Day-wise travel plans
+Destination recommendations
+Budget estimations
+Travel timeline
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🎨 UI Highlights
+Modern glassmorphism UI
+Hero image with smooth fade effect
+Responsive layouts
+Airbnb-inspired UX
+Reusable components
+Minimal clean design system
+📱 Responsive Design
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Optimized for:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+💻 Desktop
+📱 Mobile
+📟 Tablet
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Built mobile-first using:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Flexbox
+CSS Grid
+Auto-fit layouts
+Adaptive sections
+🧩 Reusable Components
+Shared Transport Components
+TransportResultRow
+SortDropdown
+FilterSidebar
+HeroSection
+Header
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+These components are reusable for:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Flights
+Trains
+Buses
+⚙️ Tech Stack
+Frontend
+React.js
+CSS3
+Responsive Design
+Future Backend
+FastAPI
+PostgreSQL
+Redis
+APIs
+Flight APIs
+Railway APIs
+Maps API
+📂 Project Structure
+src/
+│
+├── components/
+│   ├── Header/
+│   ├── HeroSection/
+│   ├── Filters/
+│   ├── Transport/
+│   └── Dropdowns/
+│
+├── pages/
+│   ├── Flights/
+│   ├── Trains/
+│   ├── Buses/
+│   └── Itinerary/
+│
+├── assets/
+├── styles/
+└── App.js
+🛠 Installation
+# Clone repository
+git clone https://github.com/your-username/tripsmart.git
+
+# Go to project
+cd tripsmart
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+🌟 Future Improvements
+🔐 Authentication
+💳 Payment integration
+🤖 AI route optimization
+🗺 Interactive maps
+🌙 Dark mode
+📦 Booking management
+📧 Email itinerary export
+📸 Design Philosophy
+
+This project focuses on:
+
+Luxury + Simplicity + Scalability
+
+Instead of traditional cluttered travel websites,
+TripSmart aims to provide:
+
+cleaner UX
+easier navigation
+visually immersive experience
+❤️ Built With Passion
+
+Designed & developed for modern travelers who want:
+
+speed
+simplicity
+intelligence
+aesthetics
+📄 License
+
+Coming soon...
+
+⭐ Support
+
+If you like this project:
+
+Give it a ⭐ on GitHub
