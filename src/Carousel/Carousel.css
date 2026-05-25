@@ -1,0 +1,38 @@
+.carousel-container {
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.carouse-card-image {
+    min-width: 200px;
+    min-height: 250px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.carousel-card-country {
+    margin-top: 190px;
+    padding-left: 10px;
+}
+
+.carousel-card-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-card-arrow-background {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.05);
+    margin: 10px
+}

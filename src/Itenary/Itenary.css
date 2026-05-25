@@ -1,0 +1,111 @@
+
+.itenary-container {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+}
+
+.itenary-secondary-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itenary-from-to {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+.itenary-btn-container {
+    display: flex;
+    gap: 15px;
+}
+
+.itenary-save-share-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    gap: 10px;
+    font-size: 15px;
+    color: #4f46e5;
+}
+
+.itenary-date-preview {
+    font-size: 12px;
+    color: grey;
+}
+
+.itenary-commutes {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.itenary-travel-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+}
+
+.itenary-filter-result {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.active-commute {
+    color: #4f46e5;
+}
+
+.avilability-container {
+    width: 100%;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 24px;
+    box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.04);
+    padding: 24px;
+    max-height: 70vh;
+    /* max-height: ; */
+}
+
+.proceed-container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proceed-btn {
+    width: 70%;
+  height: 40px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #4f46e5;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}

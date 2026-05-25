@@ -1,0 +1,6 @@
+.app-background {
+  background-color: rgb(249, 244, 244);
+  width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+}
