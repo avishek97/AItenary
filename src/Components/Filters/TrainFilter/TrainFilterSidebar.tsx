@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import "./TrainFilterSidebar.css";
-import { trainClasses } from "../../Helpers/constants";
+import { trainClasses } from "../../../Helpers/constants";
 
 const TrainFilterSidebar = () => {
   const [price, setPrice] = useState(2500);
