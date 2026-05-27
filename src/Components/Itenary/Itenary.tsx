@@ -7,7 +7,7 @@ import TrainIcon from '@mui/icons-material/Train';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import './Itenary.css'
 import Filter from '../Filters/Filter';
-import { commuteList } from '../Helpers/constants';
+import { commuteList } from '../../Helpers/constants';
 import AvailabilityLayout from '../CommuteAvailability/AvailabilityLayout/Availability';
 import SortDropdown from '../SortDropdown/SortDropdown';
 
