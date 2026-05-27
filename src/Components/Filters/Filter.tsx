@@ -1,7 +1,7 @@
 import FilterSidebar from './FlightFilters/FilterSidebar'
 import BusFilterSidebar from './BusFilterSideBar/BusFilterSideBar'
 import TrainFilterSidebar from './TrainFilter/TrainFilterSidebar'
-import { commuteList } from '../Helpers/constants'
+import { commuteList } from '../../Helpers/constants'
 
 
 const Filter = ({communteOption}) => {
