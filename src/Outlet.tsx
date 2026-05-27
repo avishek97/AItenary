@@ -1,10 +1,9 @@
-import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router'
-import Home from './Home/Home'
-import Explore from './Explore/Explore'
-import Account from './Account/Account'
-import About from './About/About'
-import Contact from './Contact/Contact'
+import Home from './Components/Home/Home'
+import Explore from './Components/Explore/Explore'
+import Account from './Components/Account/Account'
+import About from './Components/About/About'
+import Contact from './Components/Contact/Contact'
 
 const Outlet = () => {
     const router = createBrowserRouter([

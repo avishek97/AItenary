@@ -1,4 +1,4 @@
-import { commuteList } from '../../Helpers/constants'
+import { commuteList } from '../../../Helpers/constants'
 import BusAvailability from '../BusAvailability/BusAvailability'
 import FlightAvailability from '../FlightAvailability/FlightAvailability'
 import TrainAvailability from '../TrainAvailability/ TrainAvailability'
